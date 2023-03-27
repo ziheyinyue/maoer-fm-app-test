@@ -6,3 +6,11 @@ export function getBanner(){
         url:"banner?type=2"
     })
 }
+
+// 直播List
+export function getLiveList(){
+    return service({
+        method:"GET",
+        url:"personalized?limit=7"
+    })
+}
