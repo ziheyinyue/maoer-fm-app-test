@@ -4,6 +4,7 @@ import router from './router'
 import 'vant/lib/index.css';
 import getVant from './plugins';
 import { Image as VanImage } from 'vant';
+import './assets/base.css'
 
 const app = createApp(App)
 

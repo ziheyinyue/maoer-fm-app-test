@@ -1,7 +1,7 @@
-import { Icon, Swipe, SwipeItem } from 'vant';
+import { Button, Icon, Swipe, SwipeItem } from 'vant';
 
 let plugins = [
-    Icon, Swipe, SwipeItem
+    Icon, Swipe, SwipeItem, Button
 ]
 
 export default function getVant(app) {

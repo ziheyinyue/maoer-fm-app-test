@@ -44,20 +44,20 @@ export default {
 
     .liveItem {
         width: 2.1rem;
-        height: 2.1rem;
         margin-right: .2rem;
         position: relative;
 
         .liveIcon {
             position: absolute;
-            padding: .1rem .2rem;
+            padding: 0.08rem .2rem;
             border-radius: .3rem;
             background-color: #da7a7a;
             color: #fff;
             font-size: 8px;
-            top: .1rem;
+            top: .12rem;
             right: .1rem;
             white-space: nowrap;
+            z-index: 1;
         }
 
         img {
@@ -77,6 +77,9 @@ export default {
             text-overflow: ellipsis;
             white-space: nowrap;
         }
+    }
+    .liveItem:last-of-type{
+        margin-right: 0;
     }
 }
 

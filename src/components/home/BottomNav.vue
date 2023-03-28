@@ -44,7 +44,8 @@
 <style lang="less" scoped>
 .bottomNav {
     width: 100%;
-    position: absolute;
+    height: 1.4rem;
+    position: fixed;
     padding: 16px;
     bottom: 0;
     display: flex;
