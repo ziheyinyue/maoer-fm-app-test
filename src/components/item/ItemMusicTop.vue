@@ -119,6 +119,10 @@ import { changeCount } from '../../request/api/home';
 export default {
     setup(props) {
         console.log(props);
+        //判断如果通过props拿不到数据 就从sessionStorage里拿
+        if(props.playlist == "")  {
+            props.playlist = JSON.parse(sessionStorage.getItem('itemDetail')).playlist
+        }
         return {changeCount}
     },
     props: ['playlist']
