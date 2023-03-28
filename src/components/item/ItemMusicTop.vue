@@ -93,7 +93,7 @@
                     font-size: 4px;
                     padding: 2px 4px;
                     border-radius: 4px;
-                    background-color:  rgba(116, 116, 116, 0.6);
+                    background-color:  rgba(182, 182, 182, 0.6);
                 }
             }
             .contentBottom{
