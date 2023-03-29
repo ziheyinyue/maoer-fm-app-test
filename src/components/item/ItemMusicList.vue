@@ -12,6 +12,18 @@
         <div class="actors">
             <div class="actorsTitle">
                 <h3>参演声优</h3>
+                <span>
+                    全部
+                    <van-icon name="arrow" />
+                </span>
+            </div>
+            <div class="actorsList">
+                <div class="actor">
+                    <img src="" alt="">
+                    <span class="actorName"></span>
+                    <span class="juese"></span>
+                    <span class="shetuan"></span>
+                </div>
             </div>
         </div>
     </div>
