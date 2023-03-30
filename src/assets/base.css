@@ -77,4 +77,7 @@ a{
   color: var(--color-text);
 }
 
+img{
+  object-fit: cover;
+}
 
